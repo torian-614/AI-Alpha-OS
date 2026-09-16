@@ -6,6 +6,9 @@
 
 ### Added
 
+- Sprint 1.5：新增 DATABASE_SCHEMA.md，设计十张核心数据表及指定字段、类型、键和关系。
+- 定义数据版本注册、时点追踪、模拟成交账本和 Level2、资金流、Agent、Arena 扩展边界。
+
 - Sprint 1.4：新增 DATA_PLATFORM_ARCHITECTURE.md，定义七层 A股数据平台、批流职责、三阶段数据源战略、主备校验和时点质量治理。
 - 定义实时、梯队和新闻舆情逻辑扩展，明确 Alpha 数据依赖与未来实盘升级边界。
 
@@ -32,6 +35,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.5：同步数据与架构入口、项目和文档导航及路线图；未创建数据库或编写代码。
 
 - Sprint 1.4：同步项目状态、数据和架构入口、文档索引及路线图；本次仅交付架构文档。
 
