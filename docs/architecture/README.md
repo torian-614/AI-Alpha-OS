@@ -4,6 +4,10 @@
 
 | 目录 | 职责 |
 | --- | --- |
+| [research/](../../research/README.md) | Alpha、因子、策略说明、实验与研究报告 |
+| [arena/](../../arena/README.md) | Agent、档案、比较任务、排名与报告 |
+| [backtest/](../../backtest/README.md) | 回测引擎设计、仿真假设、结果与报告 |
+| [decision/](../../decision/README.md) | Alpha 生命周期决策及证据关联 |
 | [src/](../../src/README.md) | 后续源码，目前仅保留说明 |
 | [tests/](../../tests/README.md) | 后续测试，目前无测试套件 |
 | [configs/](../../configs/README.md) | 后续可共享配置，目前无运行配置 |
@@ -16,6 +20,6 @@
 
 ## 待决策
 
-语言与运行时、模块划分、依赖管理、测试工具和部署方式均待定。Day 1 不引入业务代码。
+语言与运行时、模块划分、依赖管理、测试工具和部署方式均待定。截至 Sprint 0.2，仅建立目录和说明，不引入业务代码。
 
 [架构决策记录](decisions/README.md) · [返回文档索引](../README.md)

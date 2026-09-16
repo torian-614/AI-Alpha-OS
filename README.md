@@ -2,7 +2,7 @@
 
 Open Source AI Quant Trading Operating System
 
-AI Alpha OS 旨在建设开源的 AI 量化交易操作系统。当前处于 **Sprint 0 Day 1 — Foundation Setup**，仅建立项目结构与文档基础，尚无可运行的交易系统。
+AI Alpha OS 旨在建设开源的 AI 量化交易操作系统。当前处于 **Sprint 0.2 — Engineering Framework**，仅建立项目结构与文档基础，尚无可运行的交易系统。
 
 ## 当前范围
 
@@ -21,6 +21,7 @@ AI-Alpha-OS/
 ├── CHANGELOG.md
 ├── docs/
 │   ├── README.md
+│   ├── project/
 │   ├── product/
 │   ├── architecture/
 │   │   └── decisions/
@@ -29,6 +30,24 @@ AI-Alpha-OS/
 │   ├── data/
 │   ├── development/
 │   └── sprints/
+├── research/
+│   ├── alpha/
+│   ├── factors/
+│   ├── strategies/
+│   ├── experiments/
+│   └── reports/
+├── arena/
+│   ├── agents/
+│   ├── profiles/
+│   ├── competitions/
+│   ├── rankings/
+│   └── reports/
+├── backtest/
+│   ├── engine/
+│   ├── models/
+│   ├── results/
+│   └── reports/
+├── decision/
 ├── src/
 ├── tests/
 ├── configs/
@@ -40,7 +59,7 @@ AI-Alpha-OS/
 ## 从这里开始
 
 1. 阅读[文档索引](docs/README.md)和[产品范围](docs/product/README.md)。
-2. 查看[Day 1 验收清单](docs/sprints/sprint-0-day-1.md)。
+2. 阅读[项目章程](docs/project/PROJECT_CHARTER.md)和[标准开发流程](docs/development/DEVELOPMENT_WORKFLOW.md)，查看 [Sprint 0.2 记录](docs/sprints/sprint-0-2.md)。
 3. 贡献前阅读[开发与贡献规范](docs/development/README.md)及[CODEX 规则](CODEX_RULES.md)。
 4. 在[路线图](ROADMAP.md)查看后续计划，在[变更日志](CHANGELOG.md)查看已记录的变化。
 

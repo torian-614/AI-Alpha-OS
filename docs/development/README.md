@@ -2,9 +2,11 @@
 
 ## 当前环境
 
-Day 1 只有 Markdown 文档和目录说明，阅读仓库无需安装依赖。语言、包管理器、构建、测试和 CI 工具尚未选定，因此当前没有安装、启动或业务测试命令。
+截至 Sprint 0.2，仓库只有 Markdown 文档和目录说明，阅读仓库无需安装依赖。语言、包管理器、构建、测试和 CI 工具尚未选定，因此当前没有安装、启动或业务测试命令。
 
 ## 贡献流程
+
+阶段定义和交付条件见 [Development Workflow](DEVELOPMENT_WORKFLOW.md)：Idea → RFC → PRD → Architecture → Task → Codex → Review → Merge。
 
 1. 通过 Issue 或明确的维护者任务描述问题、范围和验收标准。
 2. 阅读 [CODEX_RULES.md](../../CODEX_RULES.md) 与相关设计；检查 Git 状态，保留他人修改。
@@ -16,7 +18,7 @@ Day 1 只有 Markdown 文档和目录说明，阅读仓库无需安装依赖。�
 ## 命名与格式
 
 - 目录及普通文档采用小写 kebab-case，目录入口使用 README.md。
-- 根目录约定文档使用大写名称；ADR 采用四位编号前缀。
+- 根目录约定文档及指定治理文档 PROJECT_CHARTER.md、DEVELOPMENT_WORKFLOW.md 使用大写名称；ADR 采用四位编号前缀。
 - 文本采用 UTF-8、LF 换行，文件末尾保留换行，避免尾随空格。
 - 使用相对链接；新增文档同步更新索引。
 - 常规提交信息采用 Conventional Commits 风格，例如 docs: clarify project scope；具体任务有指定信息时遵从任务要求。

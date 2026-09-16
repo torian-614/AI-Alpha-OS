@@ -4,6 +4,8 @@
 
 | 分类 | 入口 | 内容 |
 | --- | --- | --- |
+| 项目治理 | [项目章程](project/PROJECT_CHARTER.md) | 第一目标、透明原则和 Alpha 生命周期 |
+| 工程流程 | [开发流程](development/DEVELOPMENT_WORKFLOW.md) | Idea → RFC → PRD → Architecture → Task → Codex → Review → Merge |
 | 产品设计 | [产品范围](product/README.md) | 愿景、当前目标与范围边界 |
 | 系统架构 | [架构说明](architecture/README.md) | 目录职责与待决策事项 |
 | 架构决策 | [决策记录](architecture/decisions/README.md) | ADR 编号、状态与模板 |
@@ -16,6 +18,7 @@
 ## 文档约定
 
 - 普通文档使用小写 kebab-case 文件名；目录入口统一使用 README.md。
+- 指定治理文档保留 PROJECT_CHARTER.md 和 DEVELOPMENT_WORKFLOW.md 名称。
 - 根目录约定文件使用 README.md、CODEX_RULES.md、ROADMAP.md、CHANGELOG.md。
 - 使用仓库相对链接；新增文档时更新所属目录索引。
 - 文档必须区分当前事实、提案与未来计划；代码和文档变化保持同步。

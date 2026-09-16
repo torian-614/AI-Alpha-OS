@@ -6,12 +6,19 @@
 
 ### Added
 
+- Sprint 0.2：新增 research、arena、backtest、decision 及子目录 README，明确工程职责与归档边界。
+- 新增 docs/project/PROJECT_CHARTER.md，记录长期稳定盈利目标、非黑箱、开源透明和 Alpha 生命周期管理。
+- 新增 docs/development/DEVELOPMENT_WORKFLOW.md，定义从 Idea 到 Merge 的八阶段流程。
+- 新增 Sprint 0.2 交付与验证要求记录。
+
 - 2026-09-16：Sprint 0 Day 1 Foundation Setup。
 - 项目源码、测试、配置与维护脚本目录说明。
 - 产品、架构、ADR、研究、AI、数据、开发及 Sprint 文档体系。
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 0.2：同步项目与文档导航、开发规范、架构说明、CODEX 规则和路线图，明确本阶段只有目录与文档。
 
 - 扩展项目 README，说明当前状态、目录结构、贡献入口和许可证待定状态。
 - 将 docs/README.md 从分类提纲完善为可导航的文档索引。
