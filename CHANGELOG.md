@@ -6,6 +6,9 @@
 
 ### Added
 
+- Sprint 1.4：新增 DATA_PLATFORM_ARCHITECTURE.md，定义七层 A股数据平台、批流职责、三阶段数据源战略、主备校验和时点质量治理。
+- 定义实时、梯队和新闻舆情逻辑扩展，明确 Alpha 数据依赖与未来实盘升级边界。
+
 - Sprint 1.3：新增 DATA_SOURCE_STRATEGY.md，定义来源选择、免费源评估、主备治理、质量与历史覆盖要求。
 - 新增 RESEARCH_PROTOCOL.md，定义七阶段研究流程、独立验证、前向模拟及策略准入要求。
 - 新增 Sprint 1.3 目标、任务与文档验收记录。
@@ -29,6 +32,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.4：同步项目状态、数据和架构入口、文档索引及路线图；本次仅交付架构文档。
 
 - Sprint 1.3：同步数据与研究索引、文档导航、项目阶段和路线图；未增加代码或批准策略。
 

@@ -13,6 +13,7 @@
 | 量化研究 | [研究协议](research/RESEARCH_PROTOCOL.md) | 假设、回测、样本外、前向模拟与策略准入 |
 | AI 设计 | [AI 文档](ai/README.md) | 后续设计记录的归档约定 |
 | 数据规范 | [数据契约](data/DATA_CONTRACT.md) | 七类核心数据、字段、单位与时点语义 |
+| 数据平台 | [平台架构](data/DATA_PLATFORM_ARCHITECTURE.md) | 七层数据、三阶段演进与时点质量治理 |
 | 数据源管理 | [数据源策略](data/DATA_SOURCE_STRATEGY.md) | 来源评估、主备、质量与历史覆盖 |
 | Alpha 框架 | [评分框架](alpha/ALPHA_SCORING.md) | 五个维度、风险闸门与参数优化 |
 | 回测设计 | [回测规则](backtest/BACKTEST_RULES.md) | 交易模拟、费用与统计口径 |
@@ -23,6 +24,7 @@
 
 - 普通文档使用小写 kebab-case 文件名；目录入口统一使用 README.md。指定产品需求文档使用 MVP_PRD.md。
 - 指定核心设计文档使用 DATA_CONTRACT.md、ALPHA_SCORING.md、BACKTEST_RULES.md。
+- 指定数据平台架构文档使用 DATA_PLATFORM_ARCHITECTURE.md。
 - 指定数据源与研究规范使用 DATA_SOURCE_STRATEGY.md、RESEARCH_PROTOCOL.md。
 - 指定治理文档保留 PROJECT_CHARTER.md 和 DEVELOPMENT_WORKFLOW.md 名称。
 - 根目录约定文件使用 README.md、CODEX_RULES.md、ROADMAP.md、CHANGELOG.md。

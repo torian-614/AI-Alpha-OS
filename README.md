@@ -2,13 +2,13 @@
 
 Open Source AI Quant Trading Operating System
 
-AI Alpha OS 旨在建设以长期稳定盈利为最高目标的开源 A股量化交易系统。当前处于 **Sprint 1.3 — Data Strategy and Research Protocol**，已定义 MVP 需求、核心设计、数据源策略与研究协议，尚无可运行的交易系统。
+AI Alpha OS 旨在建设以长期稳定盈利为最高目标的开源 A股量化交易系统。当前处于 **Sprint 1.4 — Data Platform Architecture**，已定义 MVP 需求、核心设计、研究协议与数据平台逻辑架构，尚无可运行的交易系统。
 
 ## 当前范围
 
 - 已建立项目目录和文档导航，并定义 [MVP 产品需求](docs/product/MVP_PRD.md)。
 - 记录项目边界、协作规则、路线图和变更历史。
-- 本次任务仅交付数据源管理与研究流程文档；V1 计划建立数据、分析、信号、模拟交易、反馈与优化闭环，功能尚待实施。
+- 本次任务仅交付数据平台架构文档；V1 计划建立数据、分析、信号、模拟交易、反馈与优化闭环，功能尚待实施。
 - 编程语言、运行时、框架、依赖管理和部署方式尚未选定；当前无需安装依赖。
 
 ## 项目结构
@@ -61,7 +61,7 @@ AI-Alpha-OS/
 ## 从这里开始
 
 1. 阅读[文档索引](docs/README.md)和[产品范围](docs/product/README.md)。
-2. 阅读[项目章程](docs/project/PROJECT_CHARTER.md)和[标准开发流程](docs/development/DEVELOPMENT_WORKFLOW.md)，查看 [Sprint 1.3 记录](docs/sprints/sprint-1-3.md)。
+2. 阅读[项目章程](docs/project/PROJECT_CHARTER.md)和[标准开发流程](docs/development/DEVELOPMENT_WORKFLOW.md)，查看 [Sprint 1.4 数据平台架构](docs/data/DATA_PLATFORM_ARCHITECTURE.md)。
 3. 贡献前阅读[开发与贡献规范](docs/development/README.md)及[CODEX 规则](CODEX_RULES.md)。
 4. 在[路线图](ROADMAP.md)查看后续计划，在[变更日志](CHANGELOG.md)查看已记录的变化。
 
