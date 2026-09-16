@@ -8,5 +8,6 @@
 | Sprint 0.2 | [Engineering Framework](sprint-0-2.md) | 量化工程结构、项目章程和开发流程 |
 | Sprint 1.1 | [MVP Product Requirement](sprint-1-1.md) | 第一版 MVP 产品需求定义 |
 | Sprint 1.2 | [Core Quant Architecture](sprint-1-2.md) | 数据契约、Alpha 评分与回测规则 |
+| Sprint 1.3 | [Data Strategy and Research Protocol](sprint-1-3.md) | 数据源管理规范与策略研究准入流程 |
 
 [路线图](../../ROADMAP.md) · [返回文档索引](../README.md)

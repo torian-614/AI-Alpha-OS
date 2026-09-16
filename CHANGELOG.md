@@ -6,6 +6,10 @@
 
 ### Added
 
+- Sprint 1.3：新增 DATA_SOURCE_STRATEGY.md，定义来源选择、免费源评估、主备治理、质量与历史覆盖要求。
+- 新增 RESEARCH_PROTOCOL.md，定义七阶段研究流程、独立验证、前向模拟及策略准入要求。
+- 新增 Sprint 1.3 目标、任务与文档验收记录。
+
 - Sprint 1.2：新增 DATA_CONTRACT.md，定义七类数据、时点可用性、质量和版本规则。
 - 新增 ALPHA_SCORING.md，定义五维框架、PRD 场景映射与参数回测优化流程。
 - 新增 BACKTEST_RULES.md，定义买卖、成交模拟、费用、滑点、账本和统计口径。
@@ -25,6 +29,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.3：同步数据与研究索引、文档导航、项目阶段和路线图；未增加代码或批准策略。
 
 - Sprint 1.2：同步项目和文档导航、架构说明、数据索引及路线图；本次仅为设计文档交付。
 

@@ -10,9 +10,10 @@
 | MVP 需求 | [MVP PRD](product/MVP_PRD.md) | V1 范围、使用流程与验收标准 |
 | 系统架构 | [架构说明](architecture/README.md) | 目录职责与待决策事项 |
 | 架构决策 | [决策记录](architecture/decisions/README.md) | ADR 编号、状态与模板 |
-| 量化研究 | [研究文档](research/README.md) | 后续研究记录的归档约定 |
+| 量化研究 | [研究协议](research/RESEARCH_PROTOCOL.md) | 假设、回测、样本外、前向模拟与策略准入 |
 | AI 设计 | [AI 文档](ai/README.md) | 后续设计记录的归档约定 |
 | 数据规范 | [数据契约](data/DATA_CONTRACT.md) | 七类核心数据、字段、单位与时点语义 |
+| 数据源管理 | [数据源策略](data/DATA_SOURCE_STRATEGY.md) | 来源评估、主备、质量与历史覆盖 |
 | Alpha 框架 | [评分框架](alpha/ALPHA_SCORING.md) | 五个维度、风险闸门与参数优化 |
 | 回测设计 | [回测规则](backtest/BACKTEST_RULES.md) | 交易模拟、费用与统计口径 |
 | 开发规范 | [开发与贡献规范](development/README.md) | 命名、贡献流程与验证要求 |
@@ -22,6 +23,7 @@
 
 - 普通文档使用小写 kebab-case 文件名；目录入口统一使用 README.md。指定产品需求文档使用 MVP_PRD.md。
 - 指定核心设计文档使用 DATA_CONTRACT.md、ALPHA_SCORING.md、BACKTEST_RULES.md。
+- 指定数据源与研究规范使用 DATA_SOURCE_STRATEGY.md、RESEARCH_PROTOCOL.md。
 - 指定治理文档保留 PROJECT_CHARTER.md 和 DEVELOPMENT_WORKFLOW.md 名称。
 - 根目录约定文件使用 README.md、CODEX_RULES.md、ROADMAP.md、CHANGELOG.md。
 - 使用仓库相对链接；新增文档时更新所属目录索引。
