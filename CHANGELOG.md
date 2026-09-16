@@ -6,6 +6,11 @@
 
 ### Added
 
+- Sprint 1.2：新增 DATA_CONTRACT.md，定义七类数据、时点可用性、质量和版本规则。
+- 新增 ALPHA_SCORING.md，定义五维框架、PRD 场景映射与参数回测优化流程。
+- 新增 BACKTEST_RULES.md，定义买卖、成交模拟、费用、滑点、账本和统计口径。
+- 新增 Alpha 与回测设计目录索引及 Sprint 1.2 交付记录。
+
 - Sprint 1.1：新增 docs/product/MVP_PRD.md，定义 A股量化系统 MVP 的目标、四类核心功能、排除项、使用流程、验收标准与未来扩展。
 - 新增 Sprint 1.1 需求文档交付记录，明确功能尚未实施与验收。
 
@@ -20,6 +25,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.2：同步项目和文档导航、架构说明、数据索引及路线图；本次仅为设计文档交付。
 
 - Sprint 1.1：同步产品范围、项目和文档导航及路线图，区分 PRD 交付与 MVP 实现。
 
