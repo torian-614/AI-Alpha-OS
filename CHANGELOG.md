@@ -6,6 +6,9 @@
 
 ### Added
 
+- Sprint 1.1：新增 docs/product/MVP_PRD.md，定义 A股量化系统 MVP 的目标、四类核心功能、排除项、使用流程、验收标准与未来扩展。
+- 新增 Sprint 1.1 需求文档交付记录，明确功能尚未实施与验收。
+
 - Sprint 0.2：新增 research、arena、backtest、decision 及子目录 README，明确工程职责与归档边界。
 - 新增 docs/project/PROJECT_CHARTER.md，记录长期稳定盈利目标、非黑箱、开源透明和 Alpha 生命周期管理。
 - 新增 docs/development/DEVELOPMENT_WORKFLOW.md，定义从 Idea 到 Merge 的八阶段流程。
@@ -17,6 +20,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.1：同步产品范围、项目和文档导航及路线图，区分 PRD 交付与 MVP 实现。
 
 - Sprint 0.2：同步项目与文档导航、开发规范、架构说明、CODEX 规则和路线图，明确本阶段只有目录与文档。
 
