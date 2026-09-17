@@ -6,6 +6,9 @@
 
 ### Added
 
+- 2026-09-17，Sprint 1.6：新增 ALPHA_DATA_MAPPING.md，定义 Alpha001–Alpha005 字段映射、因子逻辑、评分输出与四项验证指标。
+- 定义无循环依赖、跨对象输出扩展、生命周期与未来 Alpha 能力边界。
+
 - Sprint 1.5：新增 DATABASE_SCHEMA.md，设计十张核心数据表及指定字段、类型、键和关系。
 - 定义数据版本注册、时点追踪、模拟成交账本和 Level2、资金流、Agent、Arena 扩展边界。
 
@@ -35,6 +38,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.6：同步 Alpha 索引、项目与文档导航及路线图；全部变更为文档。
 
 - Sprint 1.5：同步数据与架构入口、项目和文档导航及路线图；未创建数据库或编写代码。
 
