@@ -6,6 +6,9 @@
 
 ### Added
 
+- Sprint 1.8：新增 DECISION_ENGINE_ARCHITECTURE.md 和决策设计索引，定义四个核心模块、Decision Object与Rule First边界。
+- 明确A股场景、风险红线、追加结果、幂等消费、执行复检和AI只读解释要求。
+
 - 2026-09-17，Sprint 1.7：新增 ALPHA_FORMULA_SPEC.md，定义五个 Alpha 的因子公式、暂定权重、统一分数范围及综合排序。
 - 定义边界处理、风险事件闸门、参数优化方法、验证与生命周期要求。
 
@@ -41,6 +44,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.8：同步项目、架构与文档入口、研究决策目录说明及路线图；无代码实现。
 
 - Sprint 1.7：同步 Alpha 和文档索引、项目状态及路线图；无代码实现和实际回测。
 

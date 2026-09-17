@@ -94,8 +94,18 @@
 
 仅交付公式提案；未实现、未回测，暂定权重不是最终参数。
 
+### Sprint 1.8 — Design Decision Engine Architecture
+
+- [x] 创建 [Decision Engine 架构](docs/decision/DECISION_ENGINE_ARCHITECTURE.md)，明确系统位置与 Rule First。
+- [x] 定义 Market Regime Detector、Alpha Signal Aggregation、Strategy Rule Engine 和 Risk Filter。
+- [x] 定义 Decision Object、数据截止时间、入场退出规则及追加结果。
+- [x] 覆盖A股场景、风险红线、幂等、执行复检与AI只读解释边界。
+
+本次仅交付架构，不实现引擎或授予交易权限。
+
 ### 下一阶段候选事项 — 待确认
 
+- [ ] 审查 Decision Object 与规则注册契约，明确状态转换、账户快照和持仓退出验收场景。
 - [ ] 补齐指数、跌停计数、板块视图及 alpha_signal 跨对象输出契约。
 - [ ] 登记研究假设、股票池、评价门槛、时间分区与数据需求。
 - [ ] 确认七层数据的 V1 必需范围，以及实时、梯队和新闻新增字段的契约版本。

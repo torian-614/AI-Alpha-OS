@@ -15,6 +15,6 @@
 
 本目录保存研究与生命周期决策。[ADR](../docs/architecture/decisions/README.md) 保存语言、框架和模块边界等工程架构决策，二者通过链接关联。
 
-Sprint 0.2 仅定义文档归档位置，没有决策引擎、订单逻辑或交易执行能力。
+[Decision Engine 架构](../docs/decision/DECISION_ENGINE_ARCHITECTURE.md) 定义运行期规则决策与审计边界。运行日志不直接写入本目录；截至 Sprint 1.8 仅有设计文档，没有决策引擎或交易执行实现。
 
 [项目章程](../docs/project/PROJECT_CHARTER.md) · [开发流程](../docs/development/DEVELOPMENT_WORKFLOW.md)
