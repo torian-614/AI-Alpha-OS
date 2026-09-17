@@ -6,6 +6,9 @@
 
 ### Added
 
+- Sprint 1.9：新增 ALPHA_SIGNAL_ENGINE_ARCHITECTURE.md，定义五类因子、配置化评分、标准信号和Decision接口。
+- 定义Rule First与AI辅助边界，记录未来src/alpha/四个文件职责，不创建实现文件。
+
 - Sprint 1.8：新增 DECISION_ENGINE_ARCHITECTURE.md 和决策设计索引，定义四个核心模块、Decision Object与Rule First边界。
 - 明确A股场景、风险红线、追加结果、幂等消费、执行复检和AI只读解释要求。
 
@@ -44,6 +47,8 @@
 - CODEX_RULES.md 协作规则与 ROADMAP.md 路线图。
 
 ### Changed
+
+- Sprint 1.9：保留并更新Alpha索引，同步文档、架构、项目状态和路线图。
 
 - Sprint 1.8：同步项目、架构与文档入口、研究决策目录说明及路线图；无代码实现。
 

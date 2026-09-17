@@ -103,8 +103,18 @@
 
 本次仅交付架构，不实现引擎或授予交易权限。
 
+### Sprint 1.9 — Design Alpha Signal Engine Architecture
+
+- [x] 创建 [Alpha Signal Engine架构](docs/alpha/ALPHA_SIGNAL_ENGINE_ARCHITECTURE.md)，明确Data至Backtest的职责链路。
+- [x] 定义Trend、Momentum、Capital Flow、Sentiment、Event五类Alpha。
+- [x] 定义配置化评分、标准信号对象和Decision Engine消费接口。
+- [x] 明确Rule First、AI辅助边界与未来src/alpha/文件职责。
+
+本次仅交付文档；未创建Python目录或实现文件。
+
 ### 下一阶段候选事项 — 待确认
 
+- [ ] 审查因子注册、评分配置、Alpha Signal Object和批次接口契约，明确V1启用范围。
 - [ ] 审查 Decision Object 与规则注册契约，明确状态转换、账户快照和持仓退出验收场景。
 - [ ] 补齐指数、跌停计数、板块视图及 alpha_signal 跨对象输出契约。
 - [ ] 登记研究假设、股票池、评价门槛、时间分区与数据需求。
