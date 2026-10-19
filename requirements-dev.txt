@@ -1,3 +1,0 @@
-# Development/test dependencies. Keep optional providers out of the base
-# development install so a provider-specific network failure cannot block CI.
--r requirements.txt

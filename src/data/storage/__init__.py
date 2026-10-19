@@ -1,1 +1,0 @@
-"""Local daily-bar persistence."""

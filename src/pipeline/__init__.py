@@ -1,1 +1,0 @@
-"""Daily research pipeline orchestration."""
