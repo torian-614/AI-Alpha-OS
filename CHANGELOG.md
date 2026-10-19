@@ -6,6 +6,11 @@
 
 ### Added
 
+- Sprint 2.0 Phase 2：增加版本化 AlphaResult、Risk Gate、研究 Decision Engine、SQLite Decision Record 和单命令研究管线。
+
+- Sprint 2.0 Phase 1：增加 AKShare 适配器、统一日线数据模型、校验器、SQLite 存储和 `MarketDataService`。
+- 增加三个基础研究因子及端到端数据管线测试。
+
 - Sprint 1.9：新增 ALPHA_SIGNAL_ENGINE_ARCHITECTURE.md，定义五类因子、配置化评分、标准信号和Decision接口。
 - 定义Rule First与AI辅助边界，记录未来src/alpha/四个文件职责，不创建实现文件。
 
