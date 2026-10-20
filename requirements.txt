@@ -1,0 +1,4 @@
+pandas>=2.0
+akshare>=1.16
+duckdb>=1.0,<2
+pytest>=8.0

@@ -129,6 +129,26 @@
 
 以上事项需拆分为独立任务后实施，不属于已交付的目录、工程文档与产品需求定义范围。
 
+## Sprint 2.0 — Real A-Share Data MVP
+
+### Phase 1 — Data pipeline
+
+- [x] 接入 AKShare 股票列表与 A 股日线数据。
+- [x] 建立统一日线字段、来源和接收时间元数据。
+- [x] 建立数据质量校验与 SQLite 本地存储回读。
+- [x] 提供 `MarketDataService` 给 Alpha 和 Decision 层使用。
+- [x] 保留研究阶段 Alpha 因子接口，不连接证券账户或自动下单。
+
+真实网络 smoke test 受当前运行环境的代理/SSL 连接限制，需在可访问 AKShare 上游的环境补跑三只样本股票。
+
+### Phase 2 — Alpha Decision Pipeline — 进行中
+
+- [x] 版本化 AlphaResult、配置化因子权重和决策阈值。
+- [x] 建立 Risk Gate、REJECT/WATCH/CANDIDATE 和 Decision Record。
+- [x] 建立单命令研究管线与 T 日未来数据不变性测试。
+- [ ] 在当前网络环境完成 Phase 2 三只股票的长历史真实运行。
+- [ ] 完成提交并通过人工验收。
+
 ## 后续里程碑 — 未排期
 
 V1 功能范围与验收方向已在 MVP PRD 中定义，详细设计、实施顺序和交付日期待定。AI 分析助手、飞书推送、盘中监控、虚拟游资竞技场和自动执行模块属于未来扩展，不纳入 V1。
