@@ -6,7 +6,7 @@ AI Alpha OS 旨在建设以长期稳定盈利为目标的开源 A股量化交易
 
 ## 在线演示
 
-网页演示尚未发布；部署后将在[在线演示](DEMO_URL_PENDING)提供访问入口。现可[查看源码](https://github.com/torian-614/AI-Alpha-OS)。
+网页演示已发布，可访问[在线演示](https://torian-614.github.io/AI-Alpha-OS/)或[查看源码](https://github.com/torian-614/AI-Alpha-OS)。
 
 该演示仅使用合成数据，用于展示研究流程；不连接实时行情或证券账户，不执行交易。
 
@@ -105,3 +105,4 @@ python -m http.server 4173
 ## 许可证状态
 
 项目以开源为目标，目前尚未选择许可证，也未添加 LICENSE 文件。发布前需由维护者确认许可证并补齐授权信息；本 README 不构成开源许可授予。
+
